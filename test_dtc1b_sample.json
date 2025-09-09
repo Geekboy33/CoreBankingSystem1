@@ -1,0 +1,86 @@
+{
+  "bankAccounts": [
+    {
+      "accountNumber": "ES9121000418450200051332",
+      "account_id": "ACC001",
+      "iban": "ES9121000418450200051332",
+      "balance": 12500.75,
+      "currency": "EUR",
+      "type": "Checking",
+      "bank": "Banco Santander",
+      "swiftCode": "BSCHESMM",
+      "lastTransactionDate": "2024-01-15"
+    },
+    {
+      "accountNumber": "ES2100492352523456789012",
+      "account_id": "ACC002",
+      "iban": "ES2100492352523456789012",
+      "balance": 8750.50,
+      "currency": "EUR",
+      "type": "Savings",
+      "bank": "BBVA",
+      "swiftCode": "BBVAESMM",
+      "lastTransactionDate": "2024-01-14"
+    },
+    {
+      "accountNumber": "ES1234567890123456789012",
+      "account_id": "ACC003",
+      "iban": "ES1234567890123456789012",
+      "balance": 3200.25,
+      "currency": "USD",
+      "type": "Checking",
+      "bank": "Bank of America",
+      "swiftCode": "BOFAUS3N",
+      "lastTransactionDate": "2024-01-13"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN001",
+      "transactionId": "TXN001",
+      "fromAccount": "ES9121000418450200051332",
+      "toAccount": "ES2100492352523456789012",
+      "amount": 500.00,
+      "currency": "EUR",
+      "description": "Transferencia entre cuentas",
+      "date": "2024-01-14",
+      "timestamp": "2024-01-14T10:30:00Z",
+      "type": "transfer",
+      "reference": "REF001"
+    },
+    {
+      "id": "TXN002",
+      "transactionId": "TXN002",
+      "fromAccount": "ES1234567890123456789012",
+      "toAccount": "ES9121000418450200051332",
+      "amount": 750.00,
+      "currency": "USD",
+      "description": "Pago de servicios",
+      "date": "2024-01-13",
+      "timestamp": "2024-01-13T15:45:00Z",
+      "type": "payment",
+      "reference": "REF002"
+    },
+    {
+      "id": "TXN003",
+      "transactionId": "TXN003",
+      "fromAccount": "ES2100492352523456789012",
+      "toAccount": "EXTERNAL",
+      "amount": 125.50,
+      "currency": "EUR",
+      "description": "Compra en línea",
+      "date": "2024-01-12",
+      "timestamp": "2024-01-12T09:15:00Z",
+      "type": "purchase",
+      "reference": "REF003"
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "date": "2024-01-15",
+    "format": "DTC1B",
+    "totalAccounts": 3,
+    "totalTransactions": 3,
+    "currencies": ["EUR", "USD"]
+  }
+}

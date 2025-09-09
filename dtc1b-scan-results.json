@@ -1,0 +1,134 @@
+[
+    {
+        "Transactions":  [
+
+                         ],
+        "FileName":  "api_keys.txt",
+        "TotalBalanceGBP":  0,
+        "TotalBalanceEUR":  0,
+        "TotalBalanceUSD":  0,
+        "FilePath":  "E:\\dtc1b\\api_keys.txt",
+        "FileType":  "TEXT",
+        "Accounts":  [
+
+                     ],
+        "Currencies":  [
+
+                       ],
+        "FileSize":  64
+    },
+    {
+        "Transactions":  [
+
+                         ],
+        "FileName":  "bank_accounts.json",
+        "TotalBalanceGBP":  0,
+        "TotalBalanceEUR":  0,
+        "TotalBalanceUSD":  0,
+        "FilePath":  "E:\\dtc1b\\bank_accounts.json",
+        "FileType":  "JSON",
+        "Accounts":  [
+
+                     ],
+        "Currencies":  [
+
+                       ],
+        "FileSize":  1370
+    },
+    {
+        "Transactions":  [
+
+                         ],
+        "FileName":  "financial_data.txt",
+        "TotalBalanceGBP":  0,
+        "TotalBalanceEUR":  0,
+        "TotalBalanceUSD":  0,
+        "FilePath":  "E:\\dtc1b\\financial_data.txt",
+        "FileType":  "DTC1B",
+        "Accounts":  [
+                         {
+                             "AccountNumber":  "1234-5678-9012-3456",
+                             "Currency":  "EUR",
+                             "Balance":  0,
+                             "AccountType":  "Checking",
+                             "BankName":  ""
+                         }
+                     ],
+        "Currencies":  [
+                           "EUR"
+                       ],
+        "FileSize":  633
+    },
+    {
+        "Transactions":  [
+
+                         ],
+        "FileName":  "pan_data.txt",
+        "TotalBalanceGBP":  0,
+        "TotalBalanceEUR":  0,
+        "TotalBalanceUSD":  0,
+        "FilePath":  "E:\\dtc1b\\pan_data.txt",
+        "FileType":  "TEXT",
+        "Accounts":  [
+
+                     ],
+        "Currencies":  [
+
+                       ],
+        "FileSize":  21
+    },
+    {
+        "Transactions":  [
+
+                         ],
+        "FileName":  "private_key.pem",
+        "TotalBalanceGBP":  0,
+        "TotalBalanceEUR":  0,
+        "TotalBalanceUSD":  0,
+        "FilePath":  "E:\\dtc1b\\private_key.pem",
+        "FileType":  "TEXT",
+        "Accounts":  [
+
+                     ],
+        "Currencies":  [
+
+                       ],
+        "FileSize":  86
+    },
+    {
+        "Transactions":  [
+
+                         ],
+        "FileName":  "seed_phrase.txt",
+        "TotalBalanceGBP":  0,
+        "TotalBalanceEUR":  0,
+        "TotalBalanceUSD":  0,
+        "FilePath":  "E:\\dtc1b\\seed_phrase.txt",
+        "FileType":  "TEXT",
+        "Accounts":  [
+
+                     ],
+        "Currencies":  [
+
+                       ],
+        "FileSize":  47
+    },
+    {
+        "Transactions":  [
+
+                         ],
+        "FileName":  "test_file.txt",
+        "TotalBalanceGBP":  0,
+        "TotalBalanceEUR":  0,
+        "TotalBalanceUSD":  0,
+        "FilePath":  "E:\\dtc1b\\test_file.txt",
+        "FileType":  "DTC1B",
+        "Accounts":  [
+
+                     ],
+        "Currencies":  [
+
+                       ],
+        "FileSize":  56
+    }
+]

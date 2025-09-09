@@ -1,0 +1,65 @@
+{
+  "bankAccounts": [
+    {
+      "accountNumber": "ES9121000418450200051332",
+      "type": "IBAN",
+      "bank": "CaixaBank",
+      "currency": "EUR",
+      "balance": 125750.50,
+      "status": "active"
+    },
+    {
+      "accountNumber": "US1234567890123456",
+      "type": "Account",
+      "bank": "Chase Bank",
+      "currency": "USD",
+      "balance": 89420.75,
+      "status": "active"
+    },
+    {
+      "accountNumber": "GB1234567890123456",
+      "type": "Account",
+      "bank": "Barclays",
+      "currency": "GBP",
+      "balance": 67890.25,
+      "status": "active"
+    }
+  ],
+  "creditCards": [
+    {
+      "number": "4532123456789012",
+      "type": "Visa",
+      "expiry": "12/25",
+      "limit": 10000.00,
+      "currency": "EUR"
+    },
+    {
+      "number": "5412751234567890",
+      "type": "Mastercard",
+      "expiry": "09/26",
+      "limit": 15000.00,
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN001",
+      "type": "transfer",
+      "amount": 2500.00,
+      "currency": "EUR",
+      "date": "2025-08-28",
+      "description": "Transfer to savings account"
+    },
+    {
+      "id": "TXN002",
+      "type": "payment",
+      "amount": 1750.50,
+      "currency": "USD",
+      "date": "2025-08-27",
+      "description": "Online purchase"
+    }
+  ]
+}
+
+
+

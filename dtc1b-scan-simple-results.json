@@ -1,0 +1,32 @@
+{
+    "TotalEUR":  283061.5,
+    "Balances":  [
+                     {
+                         "Currency":  "EUR",
+                         "File":  "financial_data.txt",
+                         "Type":  "Balance",
+                         "Balance":  125750.5
+                     },
+                     {
+                         "Currency":  "EUR",
+                         "File":  "financial_data.txt",
+                         "Type":  "Balance",
+                         "Balance":  89420.75
+                     },
+                     {
+                         "Currency":  "EUR",
+                         "File":  "financial_data.txt",
+                         "Type":  "Balance",
+                         "Balance":  67890.25
+                     }
+                 ],
+    "TotalUSD":  0,
+    "TotalFiles":  7,
+    "TotalGBP":  0,
+    "TotalSize":  2277,
+    "FileTypes":  {
+                      "DTC1B":  2,
+                      "JSON":  1,
+                      "TEXT":  4
+                  }
+}

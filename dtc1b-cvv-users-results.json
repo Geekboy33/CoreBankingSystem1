@@ -1,0 +1,124 @@
+﻿{
+    "TotalEUR":  null,
+    "CreditCards":  [
+                        {
+                            "Position":  57,
+                            "CardNumber":  "9121000418450200",
+                            "CVV":  "9121",
+                            "File":  "bank_accounts.json"
+                        },
+                        {
+                            "Position":  256,
+                            "CardNumber":  "1234567890123456",
+                            "CVV":  "9121",
+                            "File":  "bank_accounts.json"
+                        },
+                        {
+                            "Position":  452,
+                            "CardNumber":  "1234567890123456",
+                            "CVV":  "9121",
+                            "File":  "bank_accounts.json"
+                        },
+                        {
+                            "Position":  662,
+                            "CardNumber":  "4532123456789012",
+                            "CVV":  "1257",
+                            "File":  "bank_accounts.json"
+                        },
+                        {
+                            "Position":  814,
+                            "CardNumber":  "5412751234567890",
+                            "CVV":  "8942",
+                            "File":  "bank_accounts.json"
+                        },
+                        {
+                            "Position":  189,
+                            "CardNumber":  "9121000418450200",
+                            "CVV":  "125",
+                            "File":  "financial_data.txt"
+                        },
+                        {
+                            "Position":  260,
+                            "CardNumber":  "1234567890123456",
+                            "CVV":  "125",
+                            "File":  "financial_data.txt"
+                        },
+                        {
+                            "Position":  458,
+                            "CardNumber":  "4532123456789012",
+                            "CVV":  "125",
+                            "File":  "financial_data.txt"
+                        },
+                        {
+                            "Position":  488,
+                            "CardNumber":  "5412751234567890",
+                            "CVV":  "125",
+                            "File":  "financial_data.txt"
+                        },
+                        {
+                            "Position":  482,
+                            "CardNumber":  "5412751234567890",
+                            "CVV":  "125",
+                            "File":  "financial_data.txt"
+                        },
+                        {
+                            "Position":  452,
+                            "CardNumber":  "4532123456789012",
+                            "CVV":  "125",
+                            "File":  "financial_data.txt"
+                        },
+                        {
+                            "Position":  476,
+                            "CardNumber":  "5412751234567890",
+                            "CVV":  "125",
+                            "File":  "financial_data.txt"
+                        },
+                        {
+                            "Position":  0,
+                            "CardNumber":  "4532123456789012",
+                            "CVV":  "4532",
+                            "File":  "pan_data.txt"
+                        }
+                    ],
+    "BalancesEUR":  [
+                        {
+                            "Position":  320,
+                            "Currency":  "EUR",
+                            "File":  "financial_data.txt",
+                            "Balance":  2500
+                        },
+                        {
+                            "Position":  402,
+                            "Currency":  "EUR",
+                            "File":  "financial_data.txt",
+                            "Balance":  3200
+                        },
+                        {
+                            "Position":  79,
+                            "Currency":  "EUR",
+                            "File":  "financial_data.txt",
+                            "Balance":  125750.5
+                        },
+                        {
+                            "Position":  108,
+                            "Currency":  "EUR",
+                            "File":  "financial_data.txt",
+                            "Balance":  89420.75
+                        },
+                        {
+                            "Position":  134,
+                            "Currency":  "EUR",
+                            "File":  "financial_data.txt",
+                            "Balance":  67890.25
+                        }
+                    ],
+    "TotalFiles":  7,
+    "Users":  [
+
+              ],
+    "ScanDate":  {
+                     "value":  "\/Date(1757000468640)\/",
+                     "DisplayHint":  2,
+                     "DateTime":  "Thursday, September 4, 2025 7:41:08 PM"
+                 }
+}

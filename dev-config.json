@@ -1,0 +1,78 @@
+{
+  "development": {
+    "api": {
+      "port": 8080,
+      "host": "localhost",
+      "database": {
+        "host": "localhost",
+        "port": 5432,
+        "user": "core",
+        "password": "corepass",
+        "database": "corebank"
+      },
+      "cors": {
+        "origin": ["http://localhost:3000"],
+        "credentials": true
+      },
+      "logging": {
+        "level": "debug",
+        "file": "logs/api.log"
+      }
+    },
+    "dashboard": {
+      "port": 3000,
+      "host": "localhost",
+      "apiBase": "http://localhost:8080",
+      "wsUrl": "ws://localhost:8080/ws"
+    },
+    "ingest": {
+      "inputPath": "E:/dtc1b",
+      "outputDir": "E:/outputs/ingest",
+      "chunkSize": 67108864
+    }
+  },
+  "production": {
+    "api": {
+      "port": 8080,
+      "host": "0.0.0.0",
+      "database": {
+        "host": "db",
+        "port": 5432,
+        "user": "core",
+        "password": "corepass",
+        "database": "corebank"
+      },
+      "cors": {
+        "origin": ["https://dashboard.example.com"],
+        "credentials": true
+      },
+      "logging": {
+        "level": "info",
+        "file": "logs/api.log"
+      }
+    },
+    "dashboard": {
+      "port": 3000,
+      "host": "0.0.0.0",
+      "apiBase": "http://api:8080",
+      "wsUrl": "ws://api:8080/ws"
+    }
+  },
+  "scripts": {
+    "start": "start-simple.ps1",
+    "start-docker": "start-docker.ps1",
+    "diagnose": "diagnostico.ps1",
+    "clean": "limpiar.ps1",
+    "monitor": "monitor.ps1",
+    "backup": "backup.ps1 backup",
+    "restore": "backup.ps1 restore",
+    "install": "install.ps1"
+  },
+  "features": {
+    "websocket": true,
+    "fileUpload": true,
+    "realTimeUpdates": true,
+    "cronJobs": false,
+    "database": false
+  }
+}

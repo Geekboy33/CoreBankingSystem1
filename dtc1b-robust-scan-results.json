@@ -1,0 +1,52 @@
+{
+    "Transactions":  [
+
+                     ],
+    "TotalUSD":  0,
+    "Balances":  [
+                     {
+                         "Currency":  "EUR",
+                         "File":  "financial_data.txt",
+                         "Type":  "Balance",
+                         "Balance":  125750.5
+                     },
+                     {
+                         "Currency":  "EUR",
+                         "File":  "financial_data.txt",
+                         "Type":  "Balance",
+                         "Balance":  89420.75
+                     },
+                     {
+                         "Currency":  "EUR",
+                         "File":  "financial_data.txt",
+                         "Type":  "Balance",
+                         "Balance":  67890.25
+                     }
+                 ],
+    "TotalGBP":  0,
+    "ScanDate":  {
+                     "value":  "\/Date(1757000079211)\/",
+                     "DisplayHint":  2,
+                     "DateTime":  "Thursday, September 4, 2025 7:34:39 PM"
+                 },
+    "TotalSize":  2277,
+    "Accounts":  [
+                     {
+                         "AccountNumber":  "1234-5678-9012-3456",
+                         "File":  "financial_data.txt",
+                         "Type":  "Account"
+                     },
+                     {
+                         "AccountNumber":  "ES9121000418450200051332",
+                         "File":  "financial_data.txt",
+                         "Type":  "Account"
+                     }
+                 ],
+    "FileTypes":  {
+                      "DTC1B":  2,
+                      "JSON":  1,
+                      "TEXT":  4
+                  },
+    "TotalEUR":  283061.5,
+    "TotalFiles":  7
+}
